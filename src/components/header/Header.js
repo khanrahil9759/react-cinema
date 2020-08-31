@@ -53,7 +53,7 @@ const Header = () => {
                 <div className="header-bar"></div>
                 <div className="header-navbar">
                     <div className="header-image">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="logo" />
                     </div>
                     <div
                         className={`${menuClass ? 'header-menu-toggle is-active' : 'header-menu-toggle'}`}
